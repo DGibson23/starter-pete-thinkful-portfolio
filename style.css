@@ -16,10 +16,45 @@ h3 {
   text-align: center;
 }
 
+.logo-nav-text-center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  }
+
+.about-section{
+  display: flex;
+  } 
+
+.about-pete{
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  }  
+
+.portfolio-row-item{
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  }
+
+.portfolio-items{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0px  5px;
+  }
+
+
+article p{
+ font-size: 14px;
+  }
+
 /* Header */
-header {
+/*header {
   text-align: center;
-}
+}*/
 
 /* Containers */
 div {
@@ -53,7 +88,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
-}
+  }
 
 /* Images */
 img {
@@ -76,3 +111,4 @@ footer {
 hr {
   border: 1px solid black;
 }
+
